@@ -7,7 +7,7 @@ public class Main {
         Long start = System.currentTimeMillis();
         System.out.println("Main start");
 
-       /* MyThread1 thread1 = new MyThread1(100, 110);
+        MyThread1 thread1 = new MyThread1(100, 110);
         MyThread1 thread1a = new MyThread1(120, 130);
         Thread thread2 = new Thread(new MyTask());
 
@@ -31,7 +31,7 @@ public class Main {
         thread2.start();
         thread3.start();
 
-*/
+
         for (int i = 1; i < 10; i++){
             System.out.println("Main: " + i);
 
